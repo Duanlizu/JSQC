@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShopListViewController">
+            <connections>
+                <outlet property="cview" destination="Ax4-qd-NeN" id="qud-om-UWp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XzL-Kk-YSR">
+                    <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="首页" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtT-lS-7ae">
+                            <rect key="frame" x="169" y="11" width="37" height="22"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="NJl-N4-gGe"/>
+                        <constraint firstItem="rtT-lS-7ae" firstAttribute="centerY" secondItem="XzL-Kk-YSR" secondAttribute="centerY" id="PAX-st-CRw"/>
+                        <constraint firstItem="rtT-lS-7ae" firstAttribute="centerX" secondItem="XzL-Kk-YSR" secondAttribute="centerX" id="iNX-Db-fwv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ax4-qd-NeN">
+                    <rect key="frame" x="0.0" y="88" width="375" height="690"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XzL-Kk-YSR" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="4Lt-2M-K1s"/>
+                <constraint firstItem="Ax4-qd-NeN" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="DLk-ao-bpf"/>
+                <constraint firstItem="XzL-Kk-YSR" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="Lvh-Se-tJt"/>
+                <constraint firstItem="Ax4-qd-NeN" firstAttribute="top" secondItem="XzL-Kk-YSR" secondAttribute="bottom" id="TTi-w0-pVx"/>
+                <constraint firstItem="XzL-Kk-YSR" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="d5n-Xx-mTK"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Ax4-qd-NeN" secondAttribute="bottom" id="xj4-fr-cmi"/>
+                <constraint firstItem="Ax4-qd-NeN" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="yqG-ic-kj7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-55.200000000000003" y="195.81280788177341"/>
+        </view>
+    </objects>
+</document>

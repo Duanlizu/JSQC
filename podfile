@@ -1,0 +1,14 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'JSzulin' do
+        pod 'MJRefresh'
+        pod 'SDCycleScrollView'
+        pod 'SVProgressHUD'
+        pod 'Masonry'
+        pod 'GTMBase64', '~> 1.0.0'
+        pod 'AFNetworking'
+        pod 'IQKeyboardManager','~>5.0.3'
+        pod 'MMPopupView'
+end
+

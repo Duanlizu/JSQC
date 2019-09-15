@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>网球 网球拍</string>
+		<key>price</key>
+		<integer>20</integer>
+		<key>image</key>
+		<string>首页-素材-网球拍</string>
+		<key>subTile</key>
+		<string>网球、网球拍运动套装</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>动感单车</string>
+		<key>price</key>
+		<integer>20</integer>
+		<key>image</key>
+		<string>首页-素材-动感单车</string>
+		<key>subTile</key>
+		<string>家用动感单车静音室内健身</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>跑步机</string>
+		<key>price</key>
+		<integer>10</integer>
+		<key>image</key>
+		<string>首页-素材-跑步机</string>
+		<key>subTile</key>
+		<string>家庭办公室超静音有氧电动跑步机</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>哑铃凳</string>
+		<key>price</key>
+		<integer>10</integer>
+		<key>image</key>
+		<string>首页-素材-哑铃凳</string>
+		<key>subTile</key>
+		<string>多功能健身椅家用哑铃凳卧推凳</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>单杠</string>
+		<key>price</key>
+		<integer>20</integer>
+		<key>image</key>
+		<string>首页-素材-单杠</string>
+		<key>subTile</key>
+		<string>家用健身器材肌肉力量训练器械</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>椭圆机</string>
+		<key>price</key>
+		<integer>30</integer>
+		<key>image</key>
+		<string>首页-素材-野营煤气灶</string>
+		<key>subTile</key>
+		<string>椭圆机家用室内自发电漫步机</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>卷腹机</string>
+		<key>price</key>
+		<integer>20</integer>
+		<key>image</key>
+		<string>首页-素材-卷腹机</string>
+		<key>subTile</key>
+		<string>腹肌训练椅 卷腹器腹部健身器材</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>仰卧板</string>
+		<key>price</key>
+		<integer>20</integer>
+		<key>image</key>
+		<string>首页-素材-仰卧板</string>
+		<key>subTile</key>
+		<string>仰卧起坐健身器 收腹器 </string>
+	</dict>
+</array>
+</plist>
